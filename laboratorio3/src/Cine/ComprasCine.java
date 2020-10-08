@@ -230,7 +230,7 @@ public class ComprasCine extends javax.swing.JFrame {
             cine.preciof15 = Integer.valueOf(fila15.getText()); 
           
         }
-        InterfazMenuCine abrir = new InterfazMenuCine();
+        Interfazsillas abrir = new Interfazsillas();
         abrir.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_guardarActionPerformed

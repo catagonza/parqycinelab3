@@ -6,7 +6,7 @@
 package laboratorio3;
 
 import Parqueadero.interfazparqueadero;
-import Cine.InterfazMenuCine;
+import Cine.ComprasCine;
 
 /**
  *
@@ -77,7 +77,7 @@ public class Maininterfaz extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void CinemaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CinemaActionPerformed
-        InterfazMenuCine abrir = new InterfazMenuCine();
+        ComprasCine abrir = new ComprasCine();
         abrir.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_CinemaActionPerformed

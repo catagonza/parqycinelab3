@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class Interfazsillas extends javax.swing.JFrame {
     LógicaCine sillas = new LógicaCine();
-    ConsultaDatos disponibilidad = new ConsultaDatos();
+    
     public Interfazsillas() {
         initComponents();
         
@@ -16,7 +16,22 @@ public class Interfazsillas extends javax.swing.JFrame {
        
        int silla;
        int ocupados=0;
-       
+       public int sillasocupadas;
+        public int sillasocfil1=0;
+        public int sillasocfil2=0;
+        public int sillasocfil3=0;
+        public int sillasocfil4=0;
+        public int sillasocfil5=0;
+        public int sillasocfil6=0;
+        public int sillasocfil7=0;
+        public int sillasocfil8=0;
+        public int sillasocfil9=0;
+        public int sillasocfil10=0;
+        public int sillasocfil11=0;
+        public int sillasocfil12=0;
+        public int sillasocfil13=0;
+        public int sillasocfil14=0;
+        public int sillasocfil15=0;
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -525,6 +540,23 @@ public class Interfazsillas extends javax.swing.JFrame {
         jLabel44 = new javax.swing.JLabel();
         jLabel45 = new javax.swing.JLabel();
         jLabel46 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -4827,6 +4859,142 @@ public class Interfazsillas extends javax.swing.JFrame {
         jLabel46.setText("PANTALLA");
         jPanel1.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 80, -1, -1));
 
+        jButton1.setText("1");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 820, 70, 40));
+
+        jButton2.setText("2");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 820, 70, 40));
+
+        jButton3.setText("3");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 820, 70, 40));
+
+        jButton4.setText("4");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 820, 70, 40));
+
+        jButton5.setText("5");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 820, 70, 40));
+
+        jButton6.setText("6");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 820, 70, 40));
+
+        jButton7.setText("7");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 820, 70, 40));
+
+        jButton8.setText("8");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 820, 70, 40));
+
+        jButton9.setText("9");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 820, 70, 40));
+
+        jButton10.setText("10");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 820, 70, 40));
+
+        jButton11.setText("11");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 820, 70, 40));
+
+        jButton12.setText("12");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 820, 70, 40));
+
+        jButton13.setText("13");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 820, 70, 40));
+
+        jButton14.setText("14");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 820, 70, 40));
+
+        jButton15.setText("15");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 820, 70, 40));
+
+        jButton16.setText("Venta de sillas en sala");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1440, 820, 160, 50));
+
+        jButton17.setText("Valores por fila");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, 40));
+
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1748, 912));
 
         pack();
@@ -7366,68 +7534,68 @@ public class Interfazsillas extends javax.swing.JFrame {
             if (sillas.dispo[silla] == 1){ 
                 sillas.venta[silla] = silla+1;
                 sillas.dispo[silla] = 2;
-                disponibilidad.sillasocupadas++;
+                sillasocupadas++;
                 sillas.fila[silla] = (int)Math.ceil((silla+1)/30)+1; 
                 
                 if(sillas.fila[silla]==1)
                 {
-                    disponibilidad.sillasocfil1++;
+                    sillasocfil1++;
                 }
                 else if(sillas.fila[silla]==2)
                 {
-                    disponibilidad.sillasocfil2++;
+                    sillasocfil2++;
                 }
                 else if(sillas.fila[silla]==3)
                 {
-                    disponibilidad.sillasocfil3++;
+                    sillasocfil3++;
                 }
                 else if(sillas.fila[silla]==4)
                 {
-                    disponibilidad.sillasocfil4++;
+                    sillasocfil4++;
                 }
                 else if(sillas.fila[silla]==5)
                 {
-                    disponibilidad.sillasocfil5++;
+                    sillasocfil5++;
                 }
                 else if(sillas.fila[silla]==6)
                 {
-                    disponibilidad.sillasocfil6++;
+                    sillasocfil6++;
                 }
                 else if(sillas.fila[silla]==7)
                 {
-                    disponibilidad.sillasocfil7++;
+                    sillasocfil7++;
                 }
                 else if(sillas.fila[silla]==8)
                 {
-                    disponibilidad.sillasocfil8++;
+                    sillasocfil8++;
                 }
                 else if(sillas.fila[silla]==9)
                 {
-                    disponibilidad.sillasocfil9++;
+                    sillasocfil9++;
                 }
                 else if(sillas.fila[silla]==10)
                 {
-                    disponibilidad.sillasocfil10++;
+                    sillasocfil10++;
                 }
                 else if(sillas.fila[silla]==11)
                 {
-                    disponibilidad.sillasocfil11++;
+                    sillasocfil11++;
                 }
                 else if(sillas.fila[silla]==12)
                 {
-                    disponibilidad.sillasocfil12++;
+                    sillasocfil12++;
                 }
                 else if(sillas.fila[silla]==13)
                 {
-                    disponibilidad.sillasocfil13++;
+                    sillasocfil13++;
                 }
                 else if(sillas.fila[silla]==14)
                 {
-                    disponibilidad.sillasocfil14++;
+                    sillasocfil14++;
                 }
                 else if(sillas.fila[silla]==15)
                 {
-                    disponibilidad.sillasocfil15++;
+                    sillasocfil15++;
                 }
 
                 if (sillas.venta[silla]!=0)
@@ -7437,16 +7605,101 @@ public class Interfazsillas extends javax.swing.JFrame {
         }
         
         
-        Recibo abrir = new Recibo();
-        abrir.setVisible(true);
+        
     }//GEN-LAST:event_AceptarActionPerformed
 
     private void asignacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_asignacionActionPerformed
         // TODO add your handling code here:
-        InterfazMenuCine abrir = new InterfazMenuCine();
+        ComprasCine abrir = new ComprasCine();
         abrir.setVisible(true);
         
     }//GEN-LAST:event_asignacionActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 1 tiene "+sillasocfil1+" sillas vendidas y "+(30-sillasocfil1)+" sillas disponibles");
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 2 tiene "+sillasocfil2+" sillas vendidas y "+(30-sillasocfil2)+" sillas disponibles");
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 3 tiene "+sillasocfil3+" sillas vendidas y "+(30-sillasocfil3)+" sillas disponibles");
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 4 tiene "+sillasocfil4+" sillas vendidas y "+(30-sillasocfil4)+" sillas disponibles");
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 5 tiene "+sillasocfil5+" sillas vendidas y "+(30-sillasocfil5)+" sillas disponibles");
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 6 tiene "+sillasocfil6+" sillas vendidas y "+(30-sillasocfil6)+" sillas disponibles");
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 7 tiene "+sillasocfil7+" sillas vendidas y "+(30-sillasocfil7)+" sillas disponibles");
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 8 tiene "+sillasocfil8+" sillas vendidas y "+(30-sillasocfil8)+" sillas disponibles");
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 9 tiene "+sillasocfil9+" sillas vendidas y "+(30-sillasocfil9)+" sillas disponibles");
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 10 tiene "+sillasocfil10+" sillas vendidas y "+(30-sillasocfil10)+" sillas disponibles");
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 11 tiene "+sillasocfil11+" sillas vendidas y "+(30-sillasocfil11)+" sillas disponibles");
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 12 tiene "+sillasocfil12+" sillas vendidas y "+(30-sillasocfil12)+" sillas disponibles");
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 13 tiene "+sillasocfil13+" sillas vendidas y "+(30-sillasocfil13)+" sillas disponibles");
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 14 tiene "+sillasocfil14+" sillas vendidas y "+(30-sillasocfil14)+" sillas disponibles");
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "La fila 15 tiene "+sillasocfil15+" sillas vendidas y "+(30-sillasocfil15)+" sillas disponibles");
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "Se han vendido "+sillasocupadas+" sillas y "+(450-sillasocupadas)+" quedan sillas disponibles en toda la sala");
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        // TODO add your handling code here:
+        ConsultaValorFila abrir = new ConsultaValorFila();
+        abrir.setVisible(true);
+    }//GEN-LAST:event_jButton17ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -7787,6 +8040,23 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla449;
     private javax.swing.JToggleButton Silla450;
     private javax.swing.JButton asignacion;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
